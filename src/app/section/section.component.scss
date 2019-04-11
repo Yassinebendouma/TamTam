@@ -1,0 +1,108 @@
+h1,h2,h3,h4,h5,h6
+    {
+        font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700
+    }
+    .masthead
+    {
+        position:relative;background-color:#343a40;background:url(/assets/images/bg-masthead.jpg) no-repeat center center;background-size:cover;padding-top:8rem;padding-bottom:8rem
+    }
+        .masthead .overlay
+        {
+            position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3
+        }
+        .masthead h1
+        {
+            font-size:2rem}@media (min-width:768px)
+            {
+                .masthead
+                {
+                    padding-top:12rem;padding-bottom:12rem
+                }
+                .masthead h1
+                {
+                    font-size:3rem
+                }
+            }
+            .showcase .showcase-text
+            {
+                padding:3rem
+            }
+            .showcase .showcase-img
+            {
+                min-height:30rem;background-size:cover
+            }
+            @media (min-width:768px)
+            {
+                .showcase .showcase-text
+                {
+                    padding:7rem
+                }
+            }
+            .features-icons
+            {
+                padding-top:7rem;
+                padding-bottom:7rem
+            }
+            .features-icons .features-icons-item
+            {
+                max-width:20rem
+            }
+            .features-icons .features-icons-item .features-icons-icon
+            {
+               // height:7rem
+                width: 180px;
+                height: 180px;
+                border: 1px solid #ccc;
+                font-size: 85px;
+                line-height: 180px;
+                color: #5C6D7F;
+                box-shadow: none;
+                background: #fff;
+                transition: box-shadow 0.5s, border 0.5s, text-shadow 0.5s;
+                text-shadow: 3px 3px 7px rgba(0,0,0,0.4);
+                border-radius: 50%;
+                margin: auto;
+                
+            }
+            .features-icons .features-icons-item .features-icons-icon:hover
+            {
+            border: 1px solid #fff;
+            box-shadow: 10px 10px 10px #ccc;
+            text-shadow: none;
+            }
+            .features-icons .features-icons-item .features-icons-icon i
+            {
+                font-size:4.5rem
+            }
+            .features-icons .features-icons-item:hover .features-icons-icon i
+            {
+                font-size:5rem
+            }
+            .testimonials
+            {
+                padding-top:7rem;padding-bottom:7rem
+            }
+            .testimonials .testimonial-item
+            {
+                max-width:18rem
+            }
+            .testimonials .testimonial-item img
+            {
+                max-width:12rem;-webkit-box-shadow:0 5px 5px 0 #adb5bd;box-shadow:0 5px 5px 0 #adb5bd
+            }
+            .call-to-action
+            {
+                position:relative;background-color:#343a40;background:url(/assets/bg-masthead.jpg) no-repeat center center;background-size:cover;padding-top:7rem;padding-bottom:7rem
+            }
+            .call-to-action .overlay
+            {
+                position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3
+            }footer.footer
+            {
+                padding-top:4rem;padding-bottom:4rem
+            }
+
+a {
+    text-decoration: none;
+    color: black !important;
+} 
