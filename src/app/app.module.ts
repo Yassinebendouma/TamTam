@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { AlertModule } from 'ngx-bootstrap';
+import { ModalModule, BsModalRef } from 'ngx-bootstrap';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { SectionComponent } from './section/section.component';
 import { FooterComponent } from './footer/footer.component';
@@ -25,9 +26,10 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AppRoutingModule,
     AngularFontAwesomeModule,
-    AlertModule.forRoot()
+    AlertModule.forRoot(),
+    ModalModule.forRoot()
   ],
-  providers: [],
+  providers: [BsModalRef],
   bootstrap: [AppComponent]
  
  
